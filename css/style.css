@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; /*mantiene los elementos en caja*/
+}
+
+body{
+	background-image: url(../img/pattern_01.jpg);
+}
+
+#contenedor{
+	height: 800px;
+	width: 800px;
+	background-color: darkgrey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.style_1{
+	height: 400px;
+	width: 400px;
+	background-color: orangered;
+	float: left;
+	padding: 10px;
+}
+
+.style_2{
+	height: 400px;
+	width: 400px;
+	background-color: lightsalmon;
+	float: right;
+	padding: 20px;
+}
+
